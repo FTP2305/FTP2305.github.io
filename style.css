@@ -1,0 +1,117 @@
+/* Importa Google Fonts para una tipografía más moderna */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Navbar: Color oscuro y letras blancas */
+.navbar {
+    background-color: #212529 !important; /* Color gris oscuro */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Color amarillo al pasar el mouse */
+}
+
+.btn-outline-primary {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Encabezado (Jumbotron) */
+.jumbotron-bg {
+    background-image: url('img/BANER_HOME.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.jumbotron-bg h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenido Principal */
+h2 {
+    font-weight: 700;
+    color: #495057;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn-primary {
+    background-color:#212529;
+    border-color: #212529;
+    
+}
+
+.btn-primary:hover {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+/* Sección "Sobre Nosotros" */
+#nosotros img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de Página (Footer) */
+.footer {
+    background-color: #212529;
+    color: #adb5bd;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffc107; /* El mismo color que el hover del navbar */
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
